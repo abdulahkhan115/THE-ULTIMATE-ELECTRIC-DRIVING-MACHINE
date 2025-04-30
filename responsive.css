@@ -1,0 +1,60 @@
+@media (min-width:320px) and (max-width:991px) {
+    .menu {
+        display: block;
+    }
+
+    header h1 {
+        font-size: 20px;
+        padding: 25px 0 0 20px;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+
+    .hero p {
+        text-align: center;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-5,
+    .card-6 {
+        width: 280px;
+        height: 230px;
+    }
+
+    .portfolio h1 {
+        font-size: 38px;
+    }
+
+    .about-para {
+        flex-direction: column;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+    }
+
+    .inp input,textarea {
+        padding: 15px 45px 15px 0px;
+    }
+
+    .footer-side {
+        height: 100vh;
+    }
+}
